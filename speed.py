@@ -9,7 +9,7 @@ def getspeed():
 		s=['speed']
 		speed="{:.2f} m/s \n{:.2f} km/hr\n{:.2f} mph".format(s,s*3.6,s*2.24)
 	else:
-		speed="🛰?"
+		speed="No location services available!"
 	return speed
 
 
