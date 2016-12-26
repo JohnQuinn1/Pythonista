@@ -1,0 +1,106 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {320, 480}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Label",
+          "font_name" : "<System>",
+          "name" : "label1",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "A45C625D-E0BC-4B1A-90DB-4B7A6CE03B37"
+        },
+        "frame" : "{{39, 28}, {150, 43}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "title" : "Now",
+          "name" : "button1",
+          "action" : "update_time",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "uuid" : "4FA2309A-5C08-441E-9777-1FF1BF4C3750"
+        },
+        "frame" : "{{27, 87}, {179, 71}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Label2",
+          "font_name" : "<System>",
+          "name" : "label2",
+          "corner_radius" : 0,
+          "border_width" : 1,
+          "border_color" : "RGBA(0.537736,0.537736,0.537736,1.000000)",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "B7B5E89D-AF8C-4E04-9B3A-77D4AB0D0A5B"
+        },
+        "frame" : "{{48, 179}, {150, 32}}",
+        "selected" : true,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "uuid" : "4FA2309A-5C08-441E-9777-1FF1BF4C3750",
+          "name" : "button2",
+          "action" : "button2_tapped",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Now2"
+        },
+        "frame" : "{{39, 237.5}, {179, 71}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "uuid" : "DA0992D8-0D71-4FB1-9F01-424C91A951C0",
+          "name" : "button3",
+          "action" : "subview",
+          "class" : "Button",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Button"
+        },
+        "frame" : "{{118, 401}, {80, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]

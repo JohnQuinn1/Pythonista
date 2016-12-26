@@ -1,0 +1,336 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "name" : "Time Stamp",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {364, 582}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "TableView",
+        "attributes" : {
+          "data_source_font_size" : 18,
+          "data_source_number_of_lines" : 1,
+          "flex" : "WH",
+          "name" : "tableview1",
+          "row_height" : 44,
+          "data_source_delete_enabled" : true,
+          "class" : "TableView",
+          "data_source_items" : "Row 1\nRow 2\nRow 3",
+          "frame" : "{{82, 89}, {200, 200}}",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "uuid" : "F671BC19-619F-4DF5-B61E-E6EA64C1CBAF"
+        },
+        "frame" : "{{0, 0}, {277, 121}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "7",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button7"
+        },
+        "frame" : "{{102, 209}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "8",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button8"
+        },
+        "frame" : "{{190, 209}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "9",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button9"
+        },
+        "frame" : "{{278, 209}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "5",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button5"
+        },
+        "frame" : "{{190, 303}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "6",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button6"
+        },
+        "frame" : "{{278, 303}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "1",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button1"
+        },
+        "frame" : "{{102, 397}, {80, 76}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "3",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button3"
+        },
+        "frame" : "{{278, 397}, {80, 76}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "0",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button0"
+        },
+        "frame" : "{{278, 481}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "buttonDNF",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "DNF"
+        },
+        "frame" : "{{14, 302}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "tint_color" : "RGBA(1.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "buttonDel",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "Del"
+        },
+        "frame" : "{{14, 209}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "2",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button2"
+        },
+        "frame" : "{{190, 397}, {80, 77}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "4",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "font_size" : 40,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "name" : "button4"
+        },
+        "frame" : "{{102, 303}, {80, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 30,
+          "text" : "HH:MM:SS",
+          "font_name" : "<System>",
+          "name" : "labelTime",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{107, 275}, {150, 32}}",
+          "uuid" : "C4E42948-408B-4CF2-B4EF-B4A410A2FFDE"
+        },
+        "frame" : "{{6, 129}, {168, 72}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "title" : "",
+          "name" : "buttonBackSpace",
+          "class" : "Button",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "image_name" : "Frameworks\/PythonistaKit.framework\/Media\/Images\/iob\/arrow_left_b_256",
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8"
+        },
+        "frame" : "{{14, 396}, {80, 77}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 40,
+          "text" : "ABCDEF",
+          "font_name" : "<System>",
+          "name" : "labelID",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{107, 275}, {150, 32}}",
+          "uuid" : "14AF060F-40F2-40DC-886A-C5B9E8E701D3"
+        },
+        "frame" : "{{182, 129}, {176, 72}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 40,
+          "tint_color" : "RGBA(0.000000,0.648585,0.000000,1.000000)",
+          "title" : "Stamp",
+          "font_bold" : true,
+          "name" : "buttonStamp",
+          "class" : "Button",
+          "frame" : "{{142, 275}, {80, 32}}",
+          "uuid" : "19C5C125-3FF2-43A5-9E1F-4BB4378B6D6C"
+        },
+        "frame" : "{{14, 481}, {263, 86}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "title" : "Files",
+          "class" : "Button",
+          "frame" : "{{142, 275}, {80, 32}}",
+          "font_size" : 15,
+          "uuid" : "AB092F91-3907-4915-ACDC-6084F2AE3604",
+          "name" : "buttonFile"
+        },
+        "frame" : "{{279, 0}, {79, 52}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Browse",
+          "name" : "buttonBrowse",
+          "alpha" : 1,
+          "class" : "Button",
+          "frame" : "{{142, 275}, {80, 32}}",
+          "uuid" : "AB092F91-3907-4915-ACDC-6084F2AE3604"
+        },
+        "frame" : "{{279, 60}, {85, 53}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
