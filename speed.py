@@ -4,18 +4,16 @@ import location
 import time
 
 def getspeed():
-	s=location.get_location()['speed']
-	if s>=0:
+	l=location.get_location()
+	if l is not None:
+		s=['speed']
 		speed="{:.2f} m/s \n{:.2f} km/hr\n{:.2f} mph".format(s,s*3.6,s*2.24)
 	else:
-			speed="🛰?"
+		speed="🛰?"
 	return speed
 
 
-
 from scene import *
-
-
 
 import string
 
