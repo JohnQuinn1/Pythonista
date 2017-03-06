@@ -9,21 +9,31 @@ import logging
 import datetime
 import time
 
+# Turn on logging in case of a crash
 logging.basicConfig(filename='RunStamp.log',level=logging.INFO)
 
 #global results
-results=""
+results=''
+results_csv=''
 so_far=0
 
 def get_time():
 	return datetime.datetime.strftime(datetime.datetime.now(), '%H:%M:%S')
 	
+	
 def update_results(no, id, DNF=False):
 	global results
-	DNFstr='DNF' if DNF else ''
-	tmp="{:3d} {:} {:>4s} {:}\n".format(no,get_time(),id, DNFstr)
-	logging.info(tmp)
+	global results_csv
+	global runners
+	
+	DNF_str='DNF' if DNF else ''
+	name=runners.get(id)
+	name=name if name else ''
+	tmp="{:3d} {:} {:>4s} {:} {:}\n".format(no,get_time(),id, name, DNF_str)
+	tmp_csv="{:3d}, {:}, {:>4s}, {:}, {:}\n".format(no,get_time(),id, name, DNF_str)
+	logging.info(tmp_csv)
 	results=tmp+results
+	results_csv=tmp_csv+results_csv
 	
 
 @ui.in_background
@@ -37,6 +47,7 @@ def button_tapped(sender):
 	# Get the button's title for the following logic:
 	t = sender.title
 	global results
+	global results_csv
 	global so_far
 	# Get the labels:
 	label = sender.superview['runnerID']
@@ -60,13 +71,32 @@ def button_tapped(sender):
 			resultstxt.text=results
 			label.text=""
 	elif t == 'Copy':
-		clipboard.set(results)
+		clipboard.set(results_csv)
 		console.hud_alert('Copied to clipboard')
 	elif t == 'Reset':
 		res=console.alert('Are you sure?', 'Clear Results','Proceed')
 		results=''
+		results_csv=''
 		so_far=0
 		resultstxt.text=results
+
+
+########################
+# map numbers to names
+
+runners={}
+
+import csv
+try:
+	with open('runners.txt','r') as csvfile:
+		reader=csv.reader(csvfile)
+		for row in reader:
+			if len(row)>0: # empty last line crash
+				runners[row[0].strip()]=row[1].strip()
+except FileNotFoundError:
+	pass
+##################################
+
 
 v = ui.load_view()
 update_time(v['labelTime'])

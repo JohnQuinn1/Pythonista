@@ -207,7 +207,7 @@
         }
       },
       {
-        "selected" : false,
+        "selected" : true,
         "frame" : "{{90, 414}, {146, 65}}",
         "class" : "Button",
         "nodes" : [
@@ -215,7 +215,8 @@
         ],
         "attributes" : {
           "uuid" : "19C5C125-3FF2-43A5-9E1F-4BB4378B6D6C",
-          "font_size" : 40,
+          "image_name" : "iob:clock_32",
+          "font_size" : 30,
           "corner_radius" : 0,
           "frame" : "{{142, 275}, {80, 32}}",
           "tint_color" : "RGBA(0.000000,0.648585,0.000000,1.000000)",
@@ -341,7 +342,7 @@
         ],
         "attributes" : {
           "uuid" : "BD3AB7EE-F985-4EDF-B342-A5B073A585C9",
-          "font_size" : 17,
+          "font_size" : 15,
           "background_color" : "RGBA(0.844340,0.844340,0.844340,1.000000)",
           "frame" : "{{60, 140}, {200, 200}}",
           "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
@@ -380,9 +381,9 @@
     "attributes" : {
       "name" : "RunStamp",
       "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "flex" : ""
     }
   }
