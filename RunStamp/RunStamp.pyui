@@ -6,147 +6,7 @@
     "nodes" : [
       {
         "selected" : false,
-        "frame" : "{{167, 329}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "2",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button2"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{244, 414}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "0",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button0"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{91, 166}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "7",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button7"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{168, 166}, {68, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "8",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button8"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{244, 166}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "9",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button9"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{244, 249}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "6",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button6"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{91, 329}, {69, 65}}",
-        "class" : "Button",
-        "nodes" : [
-
-        ],
-        "attributes" : {
-          "flex" : "",
-          "border_width" : 1,
-          "action" : "button_tapped",
-          "frame" : "{{142, 239}, {80, 32}}",
-          "title" : "1",
-          "class" : "Button",
-          "corner_radius" : 0,
-          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
-          "font_size" : 40,
-          "name" : "button1"
-        }
-      },
-      {
-        "selected" : false,
-        "frame" : "{{244, 329}, {69, 65}}",
+        "frame" : "{{244, 336}, {69, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -166,7 +26,147 @@
       },
       {
         "selected" : false,
-        "frame" : "{{6, 113}, {154, 45}}",
+        "frame" : "{{167, 336}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "2",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button2"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{244, 420}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "0",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button0"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{91, 173}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "7",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button7"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{168, 173}, {68, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "8",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button8"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{244, 173}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "9",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button9"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{244, 255}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "6",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button6"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{91, 336}, {69, 65}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "flex" : "",
+          "border_width" : 1,
+          "action" : "button_tapped",
+          "frame" : "{{142, 239}, {80, 32}}",
+          "title" : "1",
+          "class" : "Button",
+          "corner_radius" : 0,
+          "uuid" : "8810B10A-D9DE-41EE-8F6C-071FDF64A7B8",
+          "font_size" : 40,
+          "name" : "button1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{9, 120}, {151, 45}}",
         "class" : "Label",
         "nodes" : [
 
@@ -181,13 +181,13 @@
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "C4E42948-408B-4CF2-B4EF-B4A410A2FFDE",
-          "name" : "labelTime",
-          "font_size" : 20
+          "font_size" : 20,
+          "name" : "labelTime"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{167, 113}, {145, 45}}",
+        "frame" : "{{168, 120}, {145, 45}}",
         "class" : "Label",
         "nodes" : [
 
@@ -202,13 +202,13 @@
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "14AF060F-40F2-40DC-886A-C5B9E8E701D3",
-          "name" : "runnerID",
-          "font_size" : 20
+          "font_size" : 20,
+          "name" : "runnerID"
         }
       },
       {
-        "selected" : true,
-        "frame" : "{{90, 414}, {146, 65}}",
+        "selected" : false,
+        "frame" : "{{90, 420}, {146, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -230,8 +230,8 @@
         }
       },
       {
-        "selected" : false,
-        "frame" : "{{9, 166}, {74, 65}}",
+        "selected" : true,
+        "frame" : "{{9, 255}, {74, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -242,17 +242,17 @@
           "action" : "button_tapped",
           "tint_color" : "RGBA(1.000000,0.000000,1.000000,1.000000)",
           "frame" : "{{142, 275}, {80, 32}}",
-          "title" : "Reset",
+          "title" : "Erase",
           "class" : "Button",
           "corner_radius" : 0,
           "uuid" : "AB092F91-3907-4915-ACDC-6084F2AE3604",
           "font_size" : 20,
-          "name" : "buttonReset"
+          "name" : "buttonErase"
         }
       },
       {
         "selected" : false,
-        "frame" : "{{9, 249}, {74, 65}}",
+        "frame" : "{{9, 173}, {74, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -274,7 +274,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{167, 249}, {69, 65}}",
+        "frame" : "{{168, 255}, {69, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -294,7 +294,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{91, 249}, {69, 65}}",
+        "frame" : "{{91, 255}, {69, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -314,7 +314,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{9, 414}, {74, 65}}",
+        "frame" : "{{6, 420}, {74, 65}}",
         "class" : "Button",
         "nodes" : [
 
@@ -335,7 +335,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{6, 10}, {304, 95}}",
+        "frame" : "{{6, 10}, {304, 102}}",
         "class" : "TextView",
         "nodes" : [
 
@@ -358,7 +358,7 @@
       },
       {
         "selected" : false,
-        "frame" : "{{9, 329}, {74, 65}}",
+        "frame" : "{{9, 336}, {74, 65}}",
         "class" : "Button",
         "nodes" : [
 
