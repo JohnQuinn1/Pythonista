@@ -92,7 +92,7 @@ def button_tapped(sender):
 		else:
 			if label.text in so_far:
 				so_far.remove(label.text)
-				update_results(len(so_far),label.text,"ER")
+				update_results(len(so_far),label.text,"ERR")
 				resultstxt.text=results
 				label.text=''
 				erase_button.tint_color='magenta'
@@ -104,6 +104,10 @@ def button_tapped(sender):
 
 runners={}
 
+import os
+path=os.path.join(os.path.expanduser('~'),'Documents/Git/Pythonista/RunStamp')
+os.chdir(path)
+
 import csv
 try:
 	with open('runners.txt','r') as csvfile:
@@ -113,6 +117,7 @@ try:
 				runners[row[0].strip()]=row[1].strip()
 except FileNotFoundError:
 	pass
+	
 ##################################
 
 
