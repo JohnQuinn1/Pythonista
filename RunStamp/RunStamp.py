@@ -108,15 +108,27 @@ import os
 path=os.path.join(os.path.expanduser('~'),'Documents/Git/Pythonista/RunStamp')
 os.chdir(path)
 
-import csv
+
 try:
-	with open('runners.txt','r') as csvfile:
-		reader=csv.reader(csvfile)
-		for row in reader:
-			if len(row)>0: # empty last line crash
-				runners[row[0].strip()]=row[1].strip()
+	with open("runners.txt","r") as f:
+		for line inf:
+			fields=line.split()
+			id=fields[0]
+			name=fields[1]+" "+fields[2]
+			runners[id]=name
 except FileNotFoundError:
 	pass
+
+
+#import csv
+#try:
+#	with open('runners.txt','r') as csvfile:
+#		reader=csv.reader(csvfile)
+#		for row in reader:
+#			if len(row)>0: # empty last line crash
+#				runners[row[0].strip()]=row[1].strip()
+#except FileNotFoundError:
+#	pass
 	
 ##################################
 
