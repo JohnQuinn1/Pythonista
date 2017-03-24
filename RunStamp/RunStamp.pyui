@@ -174,15 +174,15 @@
         "attributes" : {
           "flex" : "",
           "border_width" : 1,
-          "font_name" : "Courier",
+          "font_size" : 20,
           "frame" : "{{107, 275}, {150, 32}}",
           "class" : "Label",
           "text" : "HH:MM:SS",
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "C4E42948-408B-4CF2-B4EF-B4A410A2FFDE",
-          "font_size" : 20,
-          "name" : "labelTime"
+          "name" : "labelTime",
+          "font_name" : "Courier"
         }
       },
       {
@@ -195,15 +195,15 @@
         "attributes" : {
           "flex" : "",
           "border_width" : 1,
-          "font_name" : "<System>",
+          "font_size" : 20,
           "frame" : "{{107, 275}, {150, 32}}",
           "class" : "Label",
           "text" : "",
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "14AF060F-40F2-40DC-886A-C5B9E8E701D3",
-          "font_size" : 20,
-          "name" : "runnerID"
+          "name" : "runnerID",
+          "font_name" : "<System>"
         }
       },
       {
@@ -215,8 +215,8 @@
         ],
         "attributes" : {
           "uuid" : "19C5C125-3FF2-43A5-9E1F-4BB4378B6D6C",
-          "image_name" : "iob:clock_32",
-          "font_size" : 30,
+          "name" : "buttonStamp",
+          "flex" : "",
           "corner_radius" : 0,
           "frame" : "{{142, 275}, {80, 32}}",
           "tint_color" : "RGBA(0.000000,0.648585,0.000000,1.000000)",
@@ -225,12 +225,12 @@
           "action" : "button_tapped",
           "font_bold" : true,
           "class" : "Button",
-          "name" : "buttonStamp",
-          "flex" : ""
+          "image_name" : "iob:clock_32",
+          "font_size" : 30
         }
       },
       {
-        "selected" : true,
+        "selected" : false,
         "frame" : "{{9, 255}, {74, 65}}",
         "class" : "Button",
         "nodes" : [
@@ -259,7 +259,7 @@
         ],
         "attributes" : {
           "uuid" : "AB092F91-3907-4915-ACDC-6084F2AE3604",
-          "font_size" : 20,
+          "flex" : "",
           "corner_radius" : 0,
           "frame" : "{{142, 275}, {80, 32}}",
           "tint_color" : "RGBA(1.000000,0.000000,1.000000,1.000000)",
@@ -269,7 +269,7 @@
           "alpha" : 1,
           "class" : "Button",
           "name" : "buttonCopy",
-          "flex" : ""
+          "font_size" : 20
         }
       },
       {
@@ -334,7 +334,7 @@
         }
       },
       {
-        "selected" : false,
+        "selected" : true,
         "frame" : "{{6, 10}, {304, 102}}",
         "class" : "TextView",
         "nodes" : [
@@ -342,7 +342,7 @@
         ],
         "attributes" : {
           "uuid" : "BD3AB7EE-F985-4EDF-B342-A5B073A585C9",
-          "font_size" : 15,
+          "flex" : "",
           "background_color" : "RGBA(0.844340,0.844340,0.844340,1.000000)",
           "frame" : "{{60, 140}, {200, 200}}",
           "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
@@ -353,7 +353,7 @@
           "spellchecking_type" : "default",
           "class" : "TextView",
           "name" : "resultstxt",
-          "flex" : ""
+          "font_size" : 12
         }
       },
       {
@@ -379,12 +379,12 @@
       }
     ],
     "attributes" : {
-      "name" : "RunStamp",
+      "flex" : "",
       "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "flex" : ""
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "RunStamp",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
     }
   }
 ]

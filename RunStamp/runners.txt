@@ -1,2 +1,2 @@
-101, Usain Bolt
-102, Mo Farah
+1	Bolt, Usain
+2	Farah, Mo

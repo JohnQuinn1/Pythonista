@@ -27,7 +27,7 @@ def update_results(no, id, MSG=''):
 	global runners
 	
 	name=runners.get(id)
-	name=name if name else ''
+	name=name if name else ','
 	tmp="{:3d} {:} {:>4s} {:} {:}\n".format(no,get_time(),id, name, MSG)
 	tmp_csv="{:3d}, {:}, {:>4s}, {:}, {:}\n".format(no,get_time(),id, name, MSG)
 	logging.info(tmp_csv)
@@ -111,10 +111,12 @@ os.chdir(path)
 
 try:
 	with open("runners.txt","r") as f:
-		for line inf:
-			fields=line.split()
+		for line in f:
+			fields=line.split('\t')
 			id=fields[0]
-			name=fields[1]+" "+fields[2]
+			name=fields[1].strip()
+			if not ',' in name:
+				name+=','
 			runners[id]=name
 except FileNotFoundError:
 	pass
@@ -135,5 +137,5 @@ except FileNotFoundError:
 
 v = ui.load_view()
 update_time(v['labelTime'])
-v.present('sheet')
+v.present('fullscreen', orientations=['portrait'])
 
