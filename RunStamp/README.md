@@ -12,3 +12,5 @@ A function runs in the background updating the time in the UI each second. I fin
 
 An optional runners.txt file with a comma-separated list of "race_number, runner_name" can be included for diplaying runners names.
 There is an issue in that if the script is run directly from the home screen then it starts in the root folder - so the path to where the runners.txt file is expected to be ('Documents/Git/Pythonista/RunStamp/') is added explicitly to the root folder and is chdir'd to. This is also where a log file is kept in case of a crash.
+
+The user interface should be ok for iPhone6s and larger screens (including iPad) but not for smaller screens.
