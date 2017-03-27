@@ -1,37 +1,58 @@
 [
   {
-    "class" : "View",
-    "attributes" : {
-      "name" : "subview",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
-      "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "flex" : ""
-    },
-    "frame" : "{{0, 0}, {240, 240}}",
     "selected" : false,
+    "frame" : "{{0, 0}, {240, 240}}",
+    "class" : "View",
     "nodes" : [
       {
-        "class" : "Label",
-        "attributes" : {
-          "font_size" : 18,
-          "text" : "LabelSubView",
-          "font_name" : "<System>",
-          "tint_color" : "RGBA(0.062500,1.000000,0.062500,1.000000)",
-          "name" : "labelSub",
-          "text_color" : "RGBA(0.251179,0.669811,0.041863,1.000000)",
-          "class" : "Label",
-          "alignment" : "left",
-          "frame" : "{{45, 104}, {150, 32}}",
-          "uuid" : "870AAEC8-E47B-4E2C-BAF0-A44717453E5F"
-        },
-        "frame" : "{{45, 104}, {150, 32}}",
         "selected" : false,
+        "frame" : "{{69, 202}, {80, 32}}",
+        "class" : "Button",
         "nodes" : [
 
-        ]
+        ],
+        "attributes" : {
+          "action" : "svbtapped",
+          "flex" : "LRTB",
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Button",
+          "class" : "Button",
+          "uuid" : "59EBD138-F083-40B5-A2F5-B5A9BE497237",
+          "font_size" : 15,
+          "name" : "button1"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{18, 14}, {200, 134}}",
+        "class" : "TextView",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "uuid" : "56E769B1-7F4A-433A-8440-92B56FCEDC82",
+          "flex" : "LRTB",
+          "corner_radius" : 1,
+          "frame" : "{{20, 20}, {200, 200}}",
+          "editable" : false,
+          "border_width" : 1,
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "name" : "labelSub",
+          "font_size" : 17
+        }
       }
-    ]
+    ],
+    "attributes" : {
+      "flex" : "",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "subview",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)"
+    }
   }
 ]

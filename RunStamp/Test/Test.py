@@ -11,6 +11,9 @@ def get_time():
 def update_time(sender):
 	sender.superview['label1'].text=get_time()
 
+def svbtapped(sender):
+	print('tapped')
+
 @ui.in_background
 def button2_tapped(sender):
 	for i in range(10):

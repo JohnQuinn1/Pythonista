@@ -174,15 +174,15 @@
         "attributes" : {
           "flex" : "",
           "border_width" : 1,
-          "font_size" : 20,
+          "font_name" : "Courier",
           "frame" : "{{107, 275}, {150, 32}}",
           "class" : "Label",
           "text" : "HH:MM:SS",
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "C4E42948-408B-4CF2-B4EF-B4A410A2FFDE",
-          "name" : "labelTime",
-          "font_name" : "Courier"
+          "font_size" : 20,
+          "name" : "labelTime"
         }
       },
       {
@@ -195,15 +195,15 @@
         "attributes" : {
           "flex" : "",
           "border_width" : 1,
-          "font_size" : 20,
+          "font_name" : "<System>",
           "frame" : "{{107, 275}, {150, 32}}",
           "class" : "Label",
           "text" : "",
           "corner_radius" : 0,
           "alignment" : "center",
           "uuid" : "14AF060F-40F2-40DC-886A-C5B9E8E701D3",
-          "name" : "runnerID",
-          "font_name" : "<System>"
+          "font_size" : 20,
+          "name" : "runnerID"
         }
       },
       {
@@ -215,8 +215,8 @@
         ],
         "attributes" : {
           "uuid" : "19C5C125-3FF2-43A5-9E1F-4BB4378B6D6C",
-          "name" : "buttonStamp",
-          "flex" : "",
+          "image_name" : "iob:clock_32",
+          "font_size" : 30,
           "corner_radius" : 0,
           "frame" : "{{142, 275}, {80, 32}}",
           "tint_color" : "RGBA(0.000000,0.648585,0.000000,1.000000)",
@@ -225,8 +225,8 @@
           "action" : "button_tapped",
           "font_bold" : true,
           "class" : "Button",
-          "image_name" : "iob:clock_32",
-          "font_size" : 30
+          "name" : "buttonStamp",
+          "flex" : ""
         }
       },
       {
@@ -259,17 +259,17 @@
         ],
         "attributes" : {
           "uuid" : "AB092F91-3907-4915-ACDC-6084F2AE3604",
-          "flex" : "",
+          "font_size" : 20,
           "corner_radius" : 0,
           "frame" : "{{142, 275}, {80, 32}}",
           "tint_color" : "RGBA(1.000000,0.000000,1.000000,1.000000)",
           "border_width" : 1,
-          "title" : "Copy",
+          "title" : "View",
           "action" : "button_tapped",
           "alpha" : 1,
           "class" : "Button",
-          "name" : "buttonCopy",
-          "font_size" : 20
+          "name" : "buttonView",
+          "flex" : ""
         }
       },
       {
@@ -335,25 +335,28 @@
       },
       {
         "selected" : true,
-        "frame" : "{{6, 10}, {304, 102}}",
+        "frame" : "{{5, 10}, {310, 102}}",
         "class" : "TextView",
         "nodes" : [
 
         ],
         "attributes" : {
           "uuid" : "BD3AB7EE-F985-4EDF-B342-A5B073A585C9",
-          "flex" : "",
+          "font_size" : 14,
+          "corner_radius" : 0,
           "background_color" : "RGBA(0.844340,0.844340,0.844340,1.000000)",
           "frame" : "{{60, 140}, {200, 200}}",
           "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "editable" : false,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_width" : 1,
           "alignment" : "left",
           "autocorrection_type" : "default",
           "font_name" : "Courier",
           "spellchecking_type" : "default",
           "class" : "TextView",
           "name" : "resultstxt",
-          "font_size" : 12
+          "flex" : ""
         }
       },
       {
@@ -379,12 +382,12 @@
       }
     ],
     "attributes" : {
-      "flex" : "",
+      "name" : "RunStamp",
       "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "name" : "RunStamp",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)"
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "flex" : ""
     }
   }
 ]

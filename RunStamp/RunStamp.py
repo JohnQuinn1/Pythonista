@@ -38,8 +38,44 @@ def update_results(no, id, MSG=''):
 @ui.in_background
 def update_time(sender):
 	while True:
-		time.sleep(1)
 		sender.superview['labelTime'].text= get_time()
+		time.sleep(1)
+
+
+def subview_button_tapped(sender):
+	global results
+	global results_csv
+	global so_far
+	global runners
+	
+	t = sender.title
+	displaytxt=sender.superview['results_textview']
+
+	if t == 'In':
+		displaytxt.text=results_csv
+	elif t == 'Not':
+		i=0
+		txt=""
+		tmp=sorted(runners.keys(),key=int)
+		for id in tmp:
+			if id not in so_far:
+				i+=1
+				txt+="{:3d}, {:>4s}, {:}\n".format(i,id,runners[id])
+		displaytxt.text=txt
+	elif t == 'DNF':
+		line=results_csv.split('\n')
+		i=0
+		txt=""
+		for res in line:
+			#print(res.split(','))
+			if res.split(',')[-1].strip() == 'DNF':
+				i+=1
+				txt+=res+'\n'
+		displaytxt.text=txt
+	elif t == 'Copy':
+		clipboard.set(displaytxt.text)
+		console.hud_alert('Copied to clipboard')
+
 
 
 def button_tapped(sender):
@@ -79,9 +115,12 @@ def button_tapped(sender):
 			resultstxt.text=results
 			label.text=""
 			erase_button.tint_color='magenta'
-	elif t == 'Copy':
-		clipboard.set(results_csv)
-		console.hud_alert('Copied to clipboard')
+	elif t == 'View':
+		#v2=ui.load_view('Test/Test_subview.pyui')
+		v2=ui.load_view('RunStamp_subview.pyui')
+		sender.superview.add_subview(v2)
+		v2.present('fullscreen')
+		#sender.superview.remove_subview(v2)
 	elif t == 'Erase':
 		if len(label.text)==0:
 			res=console.alert('Are you sure?', 'Clear Results','Proceed')
@@ -113,7 +152,7 @@ try:
 	with open("runners.txt","r") as f:
 		for line in f:
 			fields=line.split('\t')
-			id=fields[0]
+			id=fields[0].strip()
 			name=fields[1].strip()
 			if not ',' in name:
 				name+=','
