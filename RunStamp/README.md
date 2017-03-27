@@ -14,3 +14,5 @@ An optional runners.txt file with a tab-separated list of "race_number \t runner
 There is an issue in that if the script is run directly from the home screen then it starts in the root folder - so the path to where the runners.txt file is expected to be ('Documents/Git/Pythonista/RunStamp/') is added explicitly to the root folder and is chdir'd to. This is also where a log file is kept in case of a crash.
 
 The user interface should be ok for iPhone6s and larger screens (including iPad) but not for smaller screens.
+
+Note: the screenshot is out of date as the copy" button has been replaced with a "view" button that open a subview.
